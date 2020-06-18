@@ -1,0 +1,11 @@
+The Tech Lair has a door that opens from the right so I tested it for opening right
+The Dining Hall has a door that opens from the left so I tested it for opening left
+The Theater Room has a door that opens from above so I tested it for opening up
+The Master Bedroom has a door that opens from below so I tested it for opening down
+
+I tested cell (4, 12) to make sure it returns 'M' to represent the Master Bedroom and because it is right next to a doorway
+I tested cell (21, 4) to make sure it returns 'R' to represent the Trophy Room and because it is dead center in the room
+I tested cell (18, 29) to make sure it returns 'V' to represent the VR Room and because it is against the wall
+I tested cell (10, 21) to make sure it returns 'T' to represent the Theater Room and because it is on the outer perimeter
+I tested cell (5, 27) to make sure it returns 'W' to represent the walkway and because it is right between two rooms
+I tested cell (10, 16) to make sure it returns 'X' to represent the closet

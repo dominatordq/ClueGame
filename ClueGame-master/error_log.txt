@@ -1,0 +1,12 @@
+Row 1 does not have the same amount of columns as the rest of the rows
+The cell at row 0 column 0referenced a room that does not exist
+The Kitchen does not have a valid identifier (Card/Other)
+Row 1 does not have the same amount of columns as the rest of the rows
+The cell at row 0 column 0referenced a room that does not exist
+The Kitchen does not have a valid identifier (Card/Other)
+Row 1 does not have the same amount of columns as the rest of the rows
+The cell at row 0 column 0referenced a room that does not exist
+The Kitchen does not have a valid identifier (Card/Other)
+Row 1 does not have the same amount of columns as the rest of the rows
+The cell at row 0 column 0referenced a room that does not exist
+The Kitchen does not have a valid identifier (Card/Other)

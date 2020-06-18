@@ -1,0 +1,1 @@
+We added 6 spots to every room where the players will show up and every time a player is moved into a room they will appear on one of these spots that are empty

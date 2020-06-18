@@ -1,0 +1,6 @@
+The Billionaire, 64, 180, 232, 10, 0, H
+The Butler, 0, 0, 0, 22, 10, C
+The Wife, 237, 0, 0, 10, 19, C
+The Pool Boy, 0, 11, 175, 16, 24, C
+The Gardener, 0, 226, 3, 5, 25, C
+The Chef, 255, 255, 255, 5, 5, C

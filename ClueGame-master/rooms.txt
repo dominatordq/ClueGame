@@ -1,0 +1,11 @@
+T, Theater Room, Card
+P, Indoor Pool, Card
+L, Library, Card
+E, Tech Lair, Card
+M, Master Bedroom, Card
+G, Indoor Garden, Card
+V, VR Room, Card
+R, Trophy Room, Card
+D, Dining Hall, Card
+C, Wire Closet, Other
+W, Walkway, Other

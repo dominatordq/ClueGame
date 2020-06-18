@@ -1,0 +1,567 @@
+commit 6574daa5177cda5a8b24d6fbbb37c80fe183fdd6
+Author: Seth Asadi <sethasadi@mines.edu>
+Date:   Thu Apr 26 18:52:24 2018 -0600
+
+    Finished up functionality for human player to make an accusation
+
+commit cd8cbf0571407bcc4a932fa51b355608bebc089e
+Author: Dominic Quintana <dquintana@mymail.mines.edu>
+Date:   Thu Apr 26 12:13:40 2018 -0600
+
+    Fixed errors relating to computer player making an accusation
+
+commit a8dd4a831d980e946ddb13c975f1d5048ce9f8df
+Author: Seth Asadi <sethasadi@mines.edu>
+Date:   Wed Apr 25 17:12:45 2018 -0600
+
+    Added functionality for players to make suggestions and for accusations to be handled
+
+commit 6f81e7503760a057d17390275dc1dd7d8d28055d
+Author: Dominic Quintana <dquintana@mymail.mines.edu>
+Date:   Tue Apr 24 12:11:19 2018 -0600
+
+    Fixed side bar bug that was displaying wrong cards
+
+commit c02cfb391ad275690ca03818703fe1364da8e187
+Author: Seth Asadi <sethasadi@mines.edu>
+Date:   Tue Apr 24 10:52:48 2018 -0600
+
+    Added functionality for computer players to make suggestions and add the disproved card to their seen cards for each suggestion
+
+commit f0199659f4c3523b80d87eafb50c967665820f2e
+Author: Dominic Quintana <dquintana@mymail.mines.edu>
+Date:   Thu Apr 19 12:15:11 2018 -0600
+
+    Started to add functionality for computer players to know when to make an accusation
+
+commit 093037acbef0adbbca9925de20f57ca3755574f0
+Author: Seth Asadi <sethasadi@mines.edu>
+Date:   Wed Apr 18 13:56:09 2018 -0600
+
+    Added file detailing extra credit that was already added
+
+commit f45913f54726976685f87d8e959c75999e98ef2e
+Author: Seth Asadi <sethasadi@mines.edu>
+Date:   Tue Apr 17 18:16:49 2018 -0600
+
+    Added functionality for players to appear on designated spaces inside each room so that they no longer draw over each other
+
+commit 48134e3ae1b8e1d753fc2a6dd12f51a5f05cf59e
+Author: Seth Asadi <sethasadi@mines.edu>
+Date:   Tue Apr 17 17:10:57 2018 -0600
+
+    Added functionality for the player to select a target and have it disappear, alongside the ability for flase targets to prompt an error message
+
+commit 08db08fbf49779fe2daff70e48e107c376842ca0
+Author: Seth Asadi <sethasadi@mines.edu>
+Date:   Tue Apr 17 16:58:35 2018 -0600
+
+    Refactored old tests to account for not landing on a space another player is on and leaving a room from any door in which you entered
+
+commit 84ef6887d108fd065157cc29c786e7d4e8269572
+Author: Dominic Quintana <dquintana@mymail.mines.edu>
+Date:   Tue Apr 17 12:16:44 2018 -0600
+
+    Added computer player and human player makeMove. Human player targets highlight, but do not un-highlight
+
+commit 75f79dcbd641e5585970decbdbce594645d2e0ac
+Author: Seth Asadi <sethasadi@mines.edu>
+Date:   Tue Apr 17 11:03:16 2018 -0600
+
+    Resized JFrame to fit everything
+
+commit 68c9ee1470581cce44bc755c99f451cd35c2ebc6
+Author: Seth Asadi <sethasadi@mines.edu>
+Date:   Sun Apr 15 21:39:37 2018 -0600
+
+    Added splash page, GUI_ClueControl and active cards display added in earlier version
+
+commit 1c955611911278886648428f956cf071bbcef0f5
+Author: Seth Asadi <sethasadi@mines.edu>
+Date:   Fri Apr 13 21:46:45 2018 -0600
+
+    Added full functionality for JFrame that allows for game play
+
+commit 3c35c41cc782bcd663379cb40d02afabfaa6e3a8
+Author: Dominic Quintana <dquintana@mymail.mines.edu>
+Date:   Thu Apr 12 12:18:01 2018 -0600
+
+    Added side bar to Clue Game
+
+commit 4f2dee54032cad9e0c0b691dcdca759b7c264456
+Author: Dominic Quintana <dquintana@mymail.mines.edu>
+Date:   Thu Apr 12 12:03:24 2018 -0600
+
+    Added GUI for the game board, and added control panel
+
+commit 56a187577f3069ba9754a7f15b89b67886c89a19
+Author: Dominic Quintana <dquintana@mymail.mines.edu>
+Date:   Tue Apr 10 12:17:18 2018 -0600
+
+    Added GUI_ClueControl to experiment package, with info dashboard
+
+commit 19404475ea2279522eb4d491bb0886d10910ebb8
+Author: Seth Asadi <sethasadi@mines.edu>
+Date:   Sun Apr 8 17:49:14 2018 -0600
+
+    Implemented functionality to pass tests related to handling a suggestion
+
+commit 362b568245b109138eaa5f0d4a790f832594ec01
+Author: Seth Asadi <sethasadi@mines.edu>
+Date:   Sun Apr 8 17:38:44 2018 -0600
+
+    Added failing tests for handling a suggestion
+
+commit 98373e1f53ba65bbaba71f3b5540108cccce6b1d
+Author: Seth Asadi <sethasadi@mines.edu>
+Date:   Sun Apr 8 17:16:40 2018 -0600
+
+    Refactored to pass previous tests
+
+commit dc349dea73a670c05e36882cb246bd1153fa692c
+Author: Seth Asadi <sethasadi@mines.edu>
+Date:   Sun Apr 8 16:42:23 2018 -0600
+
+    Implemented functionality to pass tests related to disproving a suggestion
+
+commit 5adf93f9b9e8c024cee36f11b764ec31741cf2d2
+Author: Seth Asadi <sethasadi@mines.edu>
+Date:   Sun Apr 8 16:35:20 2018 -0600
+
+    Added failing tests for disproving a suggestion
+
+commit 14f9dda32bcd72e20b35c42cd396bb659de73e96
+Author: Seth Asadi <sethasadi@mines.edu>
+Date:   Sun Apr 8 16:12:16 2018 -0600
+
+    Implemented functionality to pass tests related to creating a suggestion
+
+commit 9a3b178f952bdc86d7b4d48441a18b2cf55b800c
+Author: Seth Asadi <sethasadi@mines.edu>
+Date:   Sun Apr 8 15:46:13 2018 -0600
+
+    Added failing tests for creating a suggestion for a computerPlayer
+
+commit 29352a4a2e19591baf092ed0334f620864a2faee
+Author: Seth Asadi <sethasadi@mines.edu>
+Date:   Sun Apr 8 13:53:27 2018 -0600
+
+    Implemented functionality to pass tests relating to making an accusation
+
+commit 99c83b4067f4ce5c63f88f017edd575fa7ae5e10
+Author: Seth Asadi <sethasadi@mines.edu>
+Date:   Sun Apr 8 13:46:23 2018 -0600
+
+    Added failing tests for a computerPlayer making an accusation
+
+commit 299f01815c8057c5175b1329a874d91416a07c67
+Author: Seth Asadi <sethasadi@mines.edu>
+Date:   Sun Apr 8 13:06:49 2018 -0600
+
+    Added functionality to pass failing tests for selecting target with only rooms in list being the last visited room
+
+commit 36333d30419a6fe71916b1e232e2f124a739b600
+Author: Seth Asadi <sethasadi@mines.edu>
+Date:   Sun Apr 8 13:02:49 2018 -0600
+
+    Added functionality to pass failing tests for selecting target with a room in the list
+
+commit a1b2447ca5d3e029d7bc04db6f3282777d5d4f35
+Author: Seth Asadi <sethasadi@mines.edu>
+Date:   Sun Apr 8 12:30:31 2018 -0600
+
+    Added functionality to pass failing tests for selecting target with no room in the list
+
+commit df535b508afad498b98ea9667bd1a27dee0f13b7
+Author: sethasadi <sethasadi@mines.edu>
+Date:   Thu Apr 5 12:17:58 2018 -0600
+
+    Started to implement passing tests
+
+commit 87fb3e81ccf1e6332a2365d5b9f19bfd5853c73c
+Author: sethasadi <sethasadi@mines.edu>
+Date:   Thu Apr 5 12:00:44 2018 -0600
+
+    Refactored to pass previous tests
+
+commit db60d1aada208dd47554bf6bed1f2df3a13e6cc0
+Author: sethasadi <sethasadi@mines.edu>
+Date:   Thu Apr 5 11:54:51 2018 -0600
+
+    Refactored
+
+commit 098cb3707adabc06d86e519568f844146a9e5ada
+Author: sethasadi <sethasadi@mines.edu>
+Date:   Thu Apr 5 11:53:19 2018 -0600
+
+    Refactored
+
+commit c1a614c005f4b2425159f8153fe2ef06885641f8
+Author: sethasadi <sethasadi@mines.edu>
+Date:   Thu Apr 5 11:24:46 2018 -0600
+
+    Added final Selecting target failing tests to take care of a list of targets with a room that was last visited in it
+
+commit d73330da4d2cb383a0b5aba962ade3b6f48d4d99
+Author: sethasadi <sethasadi@mines.edu>
+Date:   Thu Apr 5 11:14:08 2018 -0600
+
+    added failing tests for checking that if a room is in the target list, and is not last visited, it is selected every time
+
+commit 077d8a1c3302924177419bec09911a5c449555ef
+Author: sethasadi <sethasadi@mines.edu>
+Date:   Thu Apr 5 10:53:20 2018 -0600
+
+    Fixed error in selecting target with no rooms, tests now properly fail
+
+commit a9dd5bf66bd65ec67e6014d068bc826d2d3929cd
+Author: Dominic Quintana <dquintana@mymail.mines.edu>
+Date:   Tue Apr 3 12:15:06 2018 -0600
+
+    Added failing test for checking computer player location picking, one error left that needs to be resolved
+
+commit 2f94f49ed1fa5298f1d438b7056ddad1bab3bc5d
+Author: Seth Asadi <sethasadi@mines.edu>
+Date:   Thu Mar 29 13:06:56 2018 -0600
+
+    comment changes
+
+commit 709f6942346f7dac5be40110d64d55a5520c62c6
+Author: Seth Asadi <sethasadi@mines.edu>
+Date:   Thu Mar 29 12:58:33 2018 -0600
+
+    Implemented functionality to pass dealing cards tests
+
+commit e47bf405971f8374537f4f920d67a2b194ae9ca7
+Author: Seth Asadi <sethasadi@mines.edu>
+Date:   Thu Mar 29 12:04:28 2018 -0600
+
+    Proper failing tests have been added to test that the cards have been dealt correctly
+
+commit cfcc038683e2f39a111c8eba6178fb4c8725074a
+Author: Seth Asadi <sethasadi@mines.edu>
+Date:   Sun Mar 25 18:08:03 2018 -0600
+
+    Implemented functionality to pass loading card tests
+
+commit cd313a647d45242d1b75bfb8d4efaa12bb4c09f7
+Author: Seth Asadi <sethasadi@mines.edu>
+Date:   Sun Mar 25 17:56:46 2018 -0600
+
+    Proper failing tests have been added to test that the cards load correctly
+
+commit 08412ca5c110b839fd6b41dca2d71a94aaaecf87
+Author: Seth Asadi <sethasadi@mines.edu>
+Date:   Sun Mar 25 17:25:20 2018 -0600
+
+    Small changes made to fix an error in a previous test that showed up after latest functionality was added
+
+commit 945808dff2a83bc6fd4c4cdc9178b930d5fdac5c
+Author: Seth Jacob Asadi <sethasadi@MacBook-Pro-Revamped.local>
+Date:   Sun Mar 25 17:19:49 2018 -0600
+
+    Added functionality to pass player tests
+
+commit b2a71c1b732d3cc1535faf07f0076401e04136ce
+Author: Seth Jacob Asadi <sethasadi@MacBook-Pro-Revamped.local>
+Date:   Sun Mar 25 16:52:17 2018 -0600
+
+    Wrote proper failing tests for checking that the players were loaded correctly from players.txt
+
+commit 3046718d7ee368c2242dd3cd6d13946f814bf598
+Author: Seth Jacob Asadi <sethasadi@MacBook-Pro-Revamped.local>
+Date:   Sun Mar 25 13:47:51 2018 -0600
+
+    Finishing touches on players.txt and cards.txt and removed weapons.txt because there was no need for it
+
+commit 9892445db388065952d268ca7d9b916ad39810f0
+Author: Seth Jacob Asadi <sethasadi@MacBook-Pro-Revamped.local>
+Date:   Thu Mar 22 20:12:48 2018 -0600
+
+    Added log files
+
+commit 84a28da5e2d00a788b450507c6a6e7a1791932a2
+Author: Seth Jacob Asadi <sethasadi@MacBook-Pro-Revamped.local>
+Date:   Thu Mar 22 19:59:17 2018 -0600
+
+    Changed the local variable cols to currentRowsNumOfColumns to be more descriptive
+
+commit c7672c4e4f0ce3f9543c774da9a24f9000fdbe84
+Author: Seth Jacob Asadi <sethasadi@MacBook-Pro-Revamped.local>
+Date:   Thu Mar 22 19:57:16 2018 -0600
+
+    Changed the local variable parts that represents the codes in each cell for a row to cellCharacterCodes
+
+commit 5521de1ffc5a87913f9ba14ab8f2bf78300563bf
+Author: Seth Jacob Asadi <sethasadi@MacBook-Pro-Revamped.local>
+Date:   Thu Mar 22 19:53:55 2018 -0600
+
+    Changed another dense and lengthy if-elseif-else statement to a cleaner switch statement in loadBoardConfig()
+
+commit 33d31451c484a7d0e5cb8da331d38f2aa7537b18
+Author: Seth Jacob Asadi <sethasadi@MacBook-Pro-Revamped.local>
+Date:   Thu Mar 22 19:45:24 2018 -0600
+
+    Made comments more explanatory for the calcTargets() method
+
+commit 1d40e8bd508eee05440d41f855591d647330cfa0
+Author: Seth Jacob Asadi <sethasadi@MacBook-Pro-Revamped.local>
+Date:   Thu Mar 22 19:41:19 2018 -0600
+
+    Moved some initialization steps like space allocation for ArrayList's from the constructor to the initialize() method
+
+commit d707cc96a66c86059e1aa351c86d6abe795ba2b8
+Author: Seth Jacob Asadi <sethasadi@MacBook-Pro-Revamped.local>
+Date:   Thu Mar 22 19:36:21 2018 -0600
+
+    Renamed the instance variable newCall to newCallToCalcTargets in order to be more descriptive about its purpose
+
+commit b081d86430b48d1eb6ebe6b9dbb8dca2a4d213cb
+Author: Seth Jacob Asadi <sethasadi@MacBook-Pro-Revamped.local>
+Date:   Thu Mar 22 19:31:49 2018 -0600
+
+    Added comments to clear up board configuring functionality
+
+commit 0e282186d4d5227cd31f40675aed1bb8013c5dd5
+Author: Dominic Quintana <dquintana@mymail.mines.edu>
+Date:   Thu Mar 22 12:14:57 2018 -0600
+
+    Utilized the relationship between switch statements and enumerations to change an excessive string of if-elseif-else's to a clean, more efficient switch statement.
+
+commit a050e7f70619425be8dc8f2a60dec03b080252cc
+Author: sethasadi <sethasadi@mines.edu>
+Date:   Thu Mar 22 12:05:34 2018 -0600
+
+    Added weapons.txt and cards.txt
+
+commit 541336a26c3053672e732599faca93655c7b6dda
+Author: sethasadi <sethasadi@mines.edu>
+Date:   Thu Mar 22 11:56:03 2018 -0600
+
+    Added players.txt file
+
+commit 23e9206fb49e2353961571e70101b38cc0035c2e
+Author: Seth Jacob Asadi <sethasadi@MacBook-Pro-Revamped.local>
+Date:   Mon Mar 19 22:20:12 2018 -0600
+
+    Generated JavaDoc and printed source code
+
+commit abdaeeb0a90f973850070d628c124668379599ef
+Author: Seth Jacob Asadi <sethasadi@MacBook-Pro-Revamped.local>
+Date:   Mon Mar 19 21:44:18 2018 -0600
+
+    JavaDoc everything
+
+commit 240bfa8dfbdcc4dfeb2b83b6dc8ce49f25296bcb
+Author: Dominic Quintana <dquintana@mymail.mines.edu>
+Date:   Mon Mar 19 18:03:29 2018 -0600
+
+    Added JavaDoc comments to each class
+
+commit 66248a4fe38edcff4ce1c4058cf9b51db63f4b48
+Author: Seth Jacob Asadi <sethasadi@MacBook-Pro-Revamped.local>
+Date:   Thu Mar 8 20:33:05 2018 -0800
+
+    Added the gitlog.txt file (I know kind of ironic right?)
+
+commit 8d7487bafb0a33a2d1c9897112e2670178d1d750
+Author: Seth Jacob Asadi <sethasadi@MacBook-Pro-Revamped.local>
+Date:   Thu Mar 8 20:28:53 2018 -0800
+
+    Added functionality for JUnit tests regarding adjacent cells and targeting
+
+commit ca692e291c846f11998a6a0f39dfc779ce0adbd6
+Author: Seth Jacob Asadi <sethasadi@MacBook-Pro-Revamped.local>
+Date:   Thu Mar 8 07:46:45 2018 -0700
+
+    Final comments for part III
+
+commit ec2df3c1cc99fe700766cc438b96537213e80224
+Author: Seth Jacob Asadi <sethasadi@MacBook-Pro-Revamped.local>
+Date:   Wed Mar 7 17:06:06 2018 -0700
+
+    Added functionality for all failing tests and ensured they were failing, not throwing errors, end part III
+
+commit e150bd3ce492880962d244c110219f940e54fa09
+Author: Seth Jacob Asadi <sethasadi@MacBook-Pro-Revamped.local>
+Date:   Wed Mar 7 16:41:55 2018 -0700
+
+    Added failing tests with correct values all the way up to six steps, which still needs to be determined
+
+commit a716c157592c7ed63ef4992d977969d7ad18bce0
+Merge: e140702 4f268da
+Author: Seth Jacob Asadi <sethasadi@csm-wl-dhcp-237-200.mines.edu>
+Date:   Tue Mar 6 12:27:36 2018 -0700
+
+    Merge branch 'master' of https://github.com/sethasadi/ClueGame
+
+commit e1407020777c13d0dd01f12f8dc3b46f0c59e17e
+Author: Seth Jacob Asadi <sethasadi@csm-wl-dhcp-237-200.mines.edu>
+Date:   Tue Mar 6 12:27:22 2018 -0700
+
+    Edited files
+
+commit 4f268da77f544a6876c47868b81e11ac92b09e06
+Author: Dominic Quintana <dquintana@mymail.mines.edu>
+Date:   Tue Mar 6 12:16:12 2018 -0700
+
+    Added new rooms excel
+
+commit 6f92be84ddc133a8ff6aeb78a3d4e304eb006581
+Author: sethasadi <sethasadi@mines.edu>
+Date:   Tue Mar 6 12:14:59 2018 -0700
+
+    Added failing tests for adjecencies
+
+commit bffcd5d5ecfdb1a4c4f41b05204459710faf3522
+Merge: 2fe49d7 60656df
+Author: sethasadi <sethasadi@mines.edu>
+Date:   Tue Mar 6 11:07:07 2018 -0700
+
+    Merge branch 'master' of https://github.com/sethasadi/ClueGame
+    
+    Stuff
+
+commit 2fe49d7dd8f4feae62779c18021012b8509018ea
+Author: sethasadi <sethasadi@mines.edu>
+Date:   Tue Mar 6 11:06:19 2018 -0700
+
+    Simple changes
+
+commit 60656df8bc5e19bb07bdb35b4175f59e3f72d61c
+Author: Dominic Quintana <dquintana@mymail.mines.edu>
+Date:   Tue Mar 6 11:03:35 2018 -0700
+
+    Added correct files
+
+commit ef7b34738c28e8acfca8f0c7972285b4bfd98f9f
+Author: Dominic Quintana <dquintana@mymail.mines.edu>
+Date:   Tue Mar 6 11:01:39 2018 -0700
+
+    Added AdjTargetTests to test package
+
+commit 6d8fe7def58ad02573bf10b8d2066532e0326948
+Author: Seth Jacob Asadi <sethasadi@MacBook-Pro-Revamped.local>
+Date:   Thu Mar 1 22:35:20 2018 -0700
+
+    Added external printing to an error_log.txt file when a BadConfigFileException is thrown
+
+commit 244f7f1bd9456863d803a9ebffc899d584c2d841
+Author: Seth Jacob Asadi <sethasadi@MacBook-Pro-Revamped.local>
+Date:   Thu Mar 1 22:25:42 2018 -0700
+
+    Added capability for running all JUnit Tests at once without recieving an error
+
+commit 54f2c90a374fc8f3bc96ad3e4a3d33e29171165b
+Author: Seth Jacob Asadi <sethasadi@MacBook-Pro-Revamped.local>
+Date:   Thu Mar 1 22:11:48 2018 -0700
+
+    Added exception handling and functionality to pass JUnit Exception tests provided by Professor Baldwin to finish Part II
+
+commit 76bacc10633ff1d2c8d04ce90c30e03e14ca8684
+Author: Seth Jacob Asadi <sethasadi@MacBook-Pro-Revamped.local>
+Date:   Thu Mar 1 21:37:26 2018 -0700
+
+    Added functionality to pass tests made and those from Professor Baldwin, requiring slight rearranging of files
+
+commit 8f1ee394b983a8b66e56525341d2196619501817
+Author: Seth Jacob Asadi <sethasadi@MacBook-Pro-Revamped.local>
+Date:   Thu Mar 1 20:35:42 2018 -0700
+
+    First attempt at writing passing tests -- still failing though
+
+commit 918261aae616fa1720e01c187ee3482b98f08619
+Author: Seth Jacob Asadi <sethasadi@MacBook-Pro-Revamped.local>
+Date:   Thu Mar 1 18:34:22 2018 -0700
+
+    Added comments to finish Part I
+
+commit c9e0c5d10d89fb9675c96589cf0d17a66fd9799f
+Author: Seth Jacob Asadi <sethasadi@MacBook-Pro-Revamped.local>
+Date:   Thu Mar 1 18:29:20 2018 -0700
+
+    Added JUnit failing tests for the Board class
+
+commit c9bd33c8873998ea93c3df82e10bc8e917daa4cb
+Author: Seth Jacob Asadi <sethasadi@MacBook-Pro-Revamped.local>
+Date:   Thu Mar 1 15:15:23 2018 -0700
+
+    Adding log.txt file
+
+commit 62854c50ee8f31647aa0a865f2595e998b21cd14
+Author: sethasadi <sethasadi@mines.edu>
+Date:   Thu Mar 1 12:16:08 2018 -0700
+
+    C13 files added to directory
+
+commit 0df164be5100c377bfcfae35cf9689ab47c8b1bf
+Author: Dominic Quintana <dquintana@mymail.mines.edu>
+Date:   Thu Mar 1 11:58:15 2018 -0700
+
+    Added room excel file
+
+commit d64836218dc56395ad4c47e0d69234951d4aa2ff
+Author: sethasadi <sethasadi@mines.edu>
+Date:   Thu Mar 1 11:57:02 2018 -0700
+
+    Added files for rooms
+
+commit 0a5ed23598661225675e4580004f2243939323b6
+Author: Seth Jacob Asadi <sethasadi@MacBook-Pro-Revamped.local>
+Date:   Tue Feb 27 22:27:19 2018 -0700
+
+    More comments added
+
+commit 218c37123b63055a46950e314ed81c715f0ec008
+Author: Seth Jacob Asadi <sethasadi@MacBook-Pro-Revamped.local>
+Date:   Tue Feb 27 22:24:50 2018 -0700
+
+    Added comments to IntBoardTests
+
+commit bb047f39344f6bc452a929c283154bf6f17f225f
+Author: Seth Jacob Asadi <sethasadi@MacBook-Pro-Revamped.local>
+Date:   Tue Feb 27 22:20:01 2018 -0700
+
+    Added functionality to pass all tests
+
+commit 18ea9e71188a66279589f098dfc3dfb95af2d997
+Author: sethasadi <sethasadi@mines.edu>
+Date:   Tue Feb 27 13:26:39 2018 -0700
+
+    Added and implemeted failing tests in IntBoardTests
+
+commit 951d03d4c605aecbcd9edde9052d4e55e5608092
+Author: sethasadi <sethasadi@mines.edu>
+Date:   Tue Feb 27 12:15:14 2018 -0700
+
+    Added IntBoardTests class
+
+commit f6bcb0863fed639d909046af2ecb4104a5cb8f34
+Author: Dominic Quintana <dquintana@mymail.mines.edu>
+Date:   Tue Feb 27 11:50:59 2018 -0700
+
+    Created IntBoard class
+
+commit 447e4e420e2233e00ec0f07909208da433e6f823
+Author: Dominic Quintana <dquintana@mymail.mines.edu>
+Date:   Tue Feb 27 11:31:36 2018 -0700
+
+    Added member variables in BoardCell
+
+commit e1b300dc5e5c0e1a35b61f692e1cd7cf72aa2823
+Author: sethasadi <sethasadi@mines.edu>
+Date:   Tue Feb 27 11:29:59 2018 -0700
+
+    Created BoardCell class
+
+commit 921c046e0c0b77a3d182c0d6aba9f86aa8ab468c
+Author: Dominic Quintana <dquintana@mymail.mines.edu>
+Date:   Tue Feb 27 11:24:36 2018 -0700
+
+    Trying to fix
+
+commit fea4ded440247bfc39eeec9e342780565086ab81
+Author: sethasadi <sethasadi@mines.edu>
+Date:   Tue Feb 27 11:06:15 2018 -0700
+
+    first commit
